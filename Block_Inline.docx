@@ -1,0 +1,11 @@
+There are two types of Display
+    => Outer Display
+    => Inner Display
+    
+    Outer Display
+        -> Block   -> height and width  and everyting else will apply
+        -> Inline  -> height width, top bottom box model attributes  not apply 
+        -> Inline Block -> in this content will not shift to the new line but all properties height,width and border attributes will be applied
+
+    Inner Display
+        -> Flex -> direct childern will behave like flexbox

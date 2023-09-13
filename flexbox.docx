@@ -1,0 +1,32 @@
+Flexbox
+    --> it will try to fit evenything in one line with using least space.
+
+    --> width = max-content this will only take the place of content but will not allow the wrap
+    --> width = min-content this will only take the place of content but will allow the wrap
+
+    flexbox allow both max and min content 
+
+    flex: 1; ==> flex:  1 1 0%;
+
+    flexgrow 1   =>equally distribute the space in all flexbox item 0 will not grow
+    flex shrink 1 => will shrink the item in available space of comtaine allowing squishing 0 will not shrink
+    flex-wrap wrap => rather squishing make the single item content on same line but will move the other item to next
+
+
+ Axes
+   -flexbox can be set to horizontal with row (default)
+   -or we can set it to colomn => in this case keep in mind that
+            if flex is 1 then the div may collapse and we got nothing it is because the it will set flexbasis to zero which will only fill the height of item div
+            also keep in mind if you set the height to zero then same will happen
+
+   - when we changed the flex-direction to column, flex-basis refers to height instead of width
+   -Because justify-content and align-items are based on the main and cross axis of your container, 
+   their behavior changes when you change the flex-direction of a flex-container. 
+
+   if you want to align accodingto direction then 
+   justifyContent flex-start, space-around 
+   and if you alignment on opposite axes of direction align-items center
+
+Gap
+ Setting gap on a flex container simply adds a specified space between flex items
+
